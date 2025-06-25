@@ -225,14 +225,14 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import face from '../assets/face.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const icons = [
   { icon: faGithub, link: "https://github.com/SjainThuli" },
-  { icon: faLinkedinIn, link: "https://linkedin.com" },
-  { icon: faInstagram, link: "https://instagram.com" },
-  { icon: faTwitter, link: "https://twitter.com" }
+  { icon: faLinkedinIn, link: "https://www.linkedin.com/in/tholoana-sejane-976447187" },
+  { icon: faInstagram, link: "https://www.instagram.com/thulisjain/?igsh=MTFtd3lwdTFxc2E2eQ%3D%3D&utm_source=qr#" },
+  { icon: faFacebook, link: "https://www.facebook.com/thulika.angelsjain?mibextid=wwXIfr&rdid=h4sy3oOPfA9CuV3Y&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16Tx4srhYx%2F%3Fmibextid%3DwwXIfr#" }
 ];
 
 const Hero = () => {
@@ -268,7 +268,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
             <a
-              href="/Tholoana_Sejane_CV.pdf"
+              href="https://drive.google.com/file/d/1j2ZP1au4U-tPxNR_q8QIVhoa1V9oAXBz/view?usp=sharing"
               download
               className="bg-tertiary text-[#dfd9ff] border border-[#00ff88] px-6 py-2 rounded-full hover:bg-[#00ff88] hover:text-black transition flex items-center gap-2"
             >
